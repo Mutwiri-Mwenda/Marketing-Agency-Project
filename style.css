@@ -1,0 +1,192 @@
+re
+* {
+ 
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #0f467e;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background-color: #9f48d1;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;}
+
+
+/* Errors for taken username & password taken*/
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+}
+ 
+/*Button formatting*/
+.btn {
+  padding: 8px;
+  font-size: 15px;
+  color: white;
+  background:#7f36bb;
+  border: none;
+  border-radius: 5px;}
+.btn:hover {
+    box-shadow: 0 10px 8px 0 rgba(12, 24, 24, 0.24),0 11px 13px 0 rgba(9, 18, 19, 0.19);
+    cursor: pointer;
+  }
+
+  
+/*Delet/Update button for repairs*/
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #9225d1;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+  
+/*To display errors*/
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+.success {
+  color: #3c763d; 
+  background: #6b10c0; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+/* Table formating*/
+
+
+.content-table {
+
+  border-collapse: collapse;
+  margin:0px;
+  width: auto;
+  font-size: 0.9em;
+  column-width: 30px;
+  word-wrap: break-word;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #ffffff;
+  text-align: center;
+  width: 98%;
+  color: #449800;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 0.5px 0.3px 0.2px #d6d6d6;
+}
+
+.content-table th,
+.content-table td {
+  padding: 8px 10px;
+
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  border-right: 2px #B0C4DE;
+  text-align: center;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #d7f8f2;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+/* Nav bar*/
+
+.nav{
+  margin-right: 0px;
+  margin-top: 36px;
+  font-size: 30px ;
+  font-weight: bolder;
+  text-align: left;
+  text-shadow: 3px 2px 2px #800604;
+  color: #ffffff;
+	background-color:#6c03c2 ;
+  border: 2px 2px 1px #130303;
+  border-radius: 10px 10px 0px 0px;
+	line-height: 40px;
+}
+.head{
+  margin-left: 30%;
+}
+
+/* Delete record*/
+.delete {
+  background-color: green;
+  opacity: 0.3;
+  width: 30%;
+  color: white;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  margin: 50px auto 0px;
+}
